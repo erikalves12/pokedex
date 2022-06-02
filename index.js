@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const port = process.env.PORT || 3000;
 const path = require("path");
 let mensagem = "";
 app.set("view engine", "ejs");
@@ -72,4 +73,6 @@ app.get("/detalhes/:Id", (req, res) => {
   res.render("detalhes", { pokemon });
 });
 
-app.listen(3000, () => console.log("Sevidor rodando em http://localhost:3000"));
+app.listen(port, () =>
+  console.log("Sevidor rodando em http://localhost:${port}")
+);
