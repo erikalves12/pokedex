@@ -43,27 +43,22 @@ h1 {
   text-align: center;
 }
 
-main {
-  margin-left: 10rem;
-  margin-right: 10rem;
-}
+
 
 section#cards {
   display: flex;
   margin-top: 1rem;
   text-align: center;
   color: rgba(2, 42, 75, 0.637);
+   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #detalhe {
-  margin-top: 1rem;
-  display: flex;
-
-  color: rgb(170, 27, 122);
-
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  font-size: 1rem;
+  
+  margin-top: 3rem;
+ 
+  
 }
 
 #btn1:hover {
@@ -95,3 +90,4 @@ footer {
   font-size: 1.2rem;
   width: 100%;
 }
+

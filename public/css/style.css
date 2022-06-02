@@ -67,13 +67,14 @@ section#cards {
 section#lista {
   display: flex;
   justify-content: space-evenly;
+  justify-content: center;
 }
 
 section#lista form {
-  width: 50%;
+  width: 90%;
 }
 section#lista form input {
-  width: 100%;
+  width:100%;
   padding: 0.3rem;
   font-size: 0.9rem;
   outline: none;
@@ -88,7 +89,7 @@ section#lista form label {
 
 section#lista form button {
   padding: 0.5rem;
-  width: 20%;
+  width: 30%;
   display: flex;
   justify-content: space-evenly;
   margin: 0 auto;
@@ -99,7 +100,7 @@ section#lista form button {
   color: rgb(211, 24, 102);
   transition: all 0.3s ease-in-out;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 section#lista form button:hover {
@@ -159,7 +160,7 @@ span#close:hover {
 
 #deta {
   padding: 0.5rem;
-  width: 20%;
+  width: 50%;
   display: flex;
   text-decoration: none;
   color: red;
