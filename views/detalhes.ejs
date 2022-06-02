@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style1.css" />
+    
+    <title>POKEDEX</title>
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+        <li>
+          <form action="/btn" method="POST">
+            <button id="btn1">Voltar</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>Pokedex</h1>
+    </header>
+
+    <main>
+      <section id="cards">
+        <div>
+          <h2><%= pokemon.Nome %></h2>
+          <img src="<%= pokemon.Imagem%>" alt="" />
+        </div>
+        <section id="detalhe">
+          <div>
+            <p>Número: <%= pokemon.Id %></p>
+          </div>
+          <div>
+            <p>Tipo: <%= pokemon.Tipo %></p>
+          </div>
+          <div>
+            <p>Altura: <%= pokemon.Altura %></p>
+          </div>
+          <div>
+            <p>Peso: <%= pokemon.Peso %></p>
+          </div>
+          <div>
+            <p>Habilidade: <%= pokemon.Habilidade %></p>
+          </div>
+          <div>
+            <p>Descrição: <%= pokemon.Descricao %></p>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="http://www.blueedtech.com.br" target="_blank"
+          >www.blueedtech.com.br</a
+        >
+        <br />-Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>

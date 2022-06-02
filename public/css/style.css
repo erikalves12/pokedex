@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: roboto;
+}
+
+nav {
+  display: flex;
+  background-color: rgb(204, 70, 137);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  z-index: 999;
+  justify-content: left;
+}
+ul#menu {
+  list-style: none;
+  font-size: 1.5rem;
+  align-items: center;
+}
+ul#menu li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+ul#menu li {
+  padding: 2rem;
+  color: aliceblue;
+}
+ul#menu li a:hover {
+  color: rgb(8, 248, 236);
+}
+
+ul#menu li:hover {
+  transform: scale(1.1);
+}
+
+header {
+  padding: 2rem;
+  background-color: rgb(51, 197, 202);
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+h1 {
+  color: rgb(168, 8, 142);
+  text-align: center;
+}
+
+main {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.card {
+  text-align: center;
+  color: rgba(22, 2, 206, 0.637);
+}
+
+section#cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+section#lista {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section#lista form {
+  width: 50%;
+}
+section#lista form input {
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+  outline: none;
+
+  margin: 0.8rem;
+}
+
+section#lista form label {
+  margin: 0.8rem;
+  color: rgb(185, 71, 151);
+}
+
+section#lista form button {
+  padding: 0.5rem;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: solid 2px rgba(170, 30, 112, 0.637);
+  background-color: rgb(125, 202, 202);
+  color: rgb(211, 24, 102);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+section#lista form button:hover {
+  background-color: rgb(9, 42, 58);
+  color: rgb(237, 245, 245);
+  border: solid 2.5px rgba(13, 14, 14, 0.637);
+}
+
+#h3 {
+  color: rgb(185, 71, 151);
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+section#cards div.card {
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+section#cards div.card img {
+  width: 100%;
+}
+
+h2 {
+  color: rgb(187, 28, 102);
+  text-align: center;
+}
+
+section#mensagem {
+  padding: 1rem;
+  background-color: rgb(138, 207, 159);
+  color: #af347c;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+}
+
+span#close {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+span#close:hover {
+  color: rgb(155, 12, 90);
+  transform: scale(1.5);
+}
+
+#deta {
+  padding: 0.5rem;
+  width: 20%;
+  display: flex;
+  text-decoration: none;
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  border: solid 2px rgba(170, 30, 112, 0.637);
+  justify-content: center;
+  border-radius: 0.4rem;
+  background-color: rgb(125, 202, 202);
+  color: rgb(211, 24, 102);
+  transition: all 0.3s ease-in-out;
+}
+
+#deta:hover {
+  transform: scale(0.9);
+  background-color: rgb(9, 42, 58);
+  border: solid 2.5px rgba(13, 14, 14, 0.637);
+  color: rgb(237, 245, 245);
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: rgba(76, 240, 240, 0.534);
+  font-size: 1.2rem;
+  width: 100%;
+}
